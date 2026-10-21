@@ -84,6 +84,11 @@ async function load() {
   for (const [id,values] of [['category',[...new Set([...ML.categories,...records.map(item=>item.category)])]],['form',[...new Set(records.map(item=>item.form).filter(Boolean))]],['year',[...new Set(records.map(item=>item.year).filter(Boolean))].sort().reverse()]]) {
     $('#'+id).innerHTML += values.map(value => `<option value="${esc(value)}">${esc(value)}</option>`).join('');
   }
+  const incoming = new URLSearchParams(location.search);
+  const groupAliases = {'dang-bo':'Văn bản Đảng bộ','chi-bo-tieu-hoc':'Đảng bộ — Chi bộ Trường Tiểu học','chi-bo-thcs':'Đảng bộ — Chi bộ Trường THCS'};
+  const requestedGroup = groupAliases[incoming.get('nhom')] || incoming.get('nhom');
+  if (requestedGroup && [...$('#category').options].some(option => option.value === requestedGroup)) $('#category').value = requestedGroup;
+  if (incoming.has('q')) $('#query').value = incoming.get('q');
   renderGroups(); render();
 }
 load();
