@@ -1,0 +1,84 @@
+WEBSITE VĂN BẢN — TRƯỜNG PTDTBT TH&THCS MẬU LONG
+Ngày chuẩn bị: 21/10/2026
+
+1. TẠO WEBSITE MIỄN PHÍ TRÊN GITHUB PAGES
+
+- Đăng nhập https://github.com bằng tài khoản của nhà trường.
+- Chọn dấu + → New repository.
+- Tên kho gợi ý: van-ban-mau-long. Chọn Public và bật Add README.
+- Chọn Create repository.
+- Giải nén gói website. Trong kho vừa tạo, chọn Add file → Upload files.
+- Tải các tệp bên trong thư mục website lên thư mục gốc của kho.
+  Tệp index.html phải nằm ngay ở gốc, không nằm trong một thư mục lồng khác.
+  Không tải nguyên tệp ZIP. Không tải tệp PDF, Word hoặc danh sách email nhân viên.
+- Chọn Commit changes.
+- Vào Settings → Pages → Build and deployment.
+- Source: Deploy from a branch. Branch: main. Folder: / (root). Chọn Save.
+- Khi GitHub báo đã xuất bản, chọn Visit site để lấy đường dẫn thực tế.
+  Mẫu đường dẫn: https://TEN-TAI-KHOAN.github.io/van-ban-mau-long/
+  TEN-TAI-KHOAN là tên tài khoản GitHub, không phải email.
+- Chờ vài phút; theo GitHub, lần cập nhật có thể mất tới 10 phút.
+
+Chi phí lưu website và dùng địa chỉ github.io: 0 đồng với kho Public trên GitHub Free.
+Tên miền riêng là lựa chọn mua thêm, không cần để sử dụng website.
+
+2. QUYỀN XEM
+
+Website và danh mục (tên, số, nhóm, ghi chú và liên kết) hiển thị công khai.
+Tệp văn bản vẫn ở Drive; chỉ email được cấp quyền trên Drive mới mở được nội dung.
+Website này không có cơ chế đăng nhập nội bộ. Không đăng thông tin mật, dữ liệu sức khỏe,
+hồ sơ cá nhân hoặc nội dung không được phép công khai vào danh mục GitHub.
+Không có mật khẩu, email nhân viên hoặc khóa truy cập trong gói website.
+
+66 nhân viên chỉ cần đường dẫn website và email Google được cấp quyền trên Drive.
+Nhân viên tra cứu không cần tài khoản GitHub.
+
+3. THÊM VĂN BẢN HẰNG NGÀY
+
+Bước 1: Tải PDF/Word lên đúng thư mục trong kho Drive của trường.
+Kho Drive: https://drive.google.com/drive/folders/1xrwAY7P0IQ6kaoqO87vI7cNZvCZ9JtnG
+Giữ quyền truy cập Hạn chế; cấp quyền bằng email theo quy định của trường.
+Sao chép liên kết của từng tệp bằng Chia sẻ → Sao chép đường liên kết.
+
+Bước 2: Mở website → cuối trang chọn Dành cho văn thư.
+Chọn Thêm văn bản, nhập tên đầy đủ, số/ký hiệu, ngày ban hành, nhóm, loại và liên kết.
+Nếu chưa xác minh ngày hoặc số, để trống; không đoán thông tin.
+Văn bản Đảng bộ có hai nhóm riêng cho Chi bộ Trường Tiểu học và Chi bộ Trường THCS.
+Tài liệu kèm theo: mỗi dòng ghi tên | liên kết HTTPS.
+Chọn Lưu vào bản soạn cho từng văn bản.
+
+Bước 3: Chọn Tải data.json để đăng.
+Đây mới là bản soạn trên máy, chưa xuất bản. Giữ nguyên tên data.json.
+Mở kho GitHub → Add file → Upload files → chọn tệp data.json mới ở thư mục gốc.
+Chọn Commit changes. Chỉ người có quyền sửa kho GitHub mới làm được bước này.
+Sau khi GitHub Pages cập nhật, tải lại trang tra cứu và kiểm tra kết quả.
+Nếu trình duyệt tải thành data (1).json, đổi tên về data.json trước khi đưa lên GitHub.
+
+Bản soạn được nhớ trên trình duyệt, không tự đồng bộ giữa các máy.
+Muốn tiếp tục trên máy khác, dùng Mở danh mục từ máy và chọn data.json mới nhất.
+Trước khi soạn từ một máy cũ, có thể tải data.json mới nhất từ kho GitHub rồi mở lại.
+
+4. TRA CỨU DÀNH CHO NHÂN VIÊN
+
+- Gõ tên, từ khóa hoặc số văn bản; có thể tìm không dấu.
+- Chọn nhóm, loại văn bản hoặc năm học để lọc.
+- Chọn Xem chi tiết → Mở văn bản gốc.
+- Đăng nhập Google bằng email được trường cấp quyền.
+- Tài liệu kèm theo nằm trong phần chi tiết.
+- Ngôi sao lưu mục thường dùng trên đúng trình duyệt, không đồng bộ thiết bị.
+
+5. DỮ LIỆU BAN ĐẦU
+
+16 mục lấy từ danh mục đã đăng trên trang Mậu Long trước đây, có liên kết Drive tương ứng.
+Hai văn bản có ngày ban hành đã được xác minh từ danh mục nguồn: 1008/CV-UBND và
+3600/SGDĐT-GDPT. Các mục chưa xác minh ngày được để trống.
+Website độc lập; thêm tài liệu lên website cũ không tự đồng bộ sang website này.
+Những nhóm chưa có văn bản sẽ hiện 0 mục và được bổ sung sau.
+
+6. TÀI LIỆU CHÍNH THỨC
+
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+Kho GitHub của trường: https://github.com/hahuong678536-gif/van-ban-mau-long
+Kiểm tra địa chỉ website thực tế tại Settings → Pages → Visit site.

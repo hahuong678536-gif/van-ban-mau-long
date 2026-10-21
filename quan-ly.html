@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cập nhật danh mục · Mậu Long</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="editor.css"></head>
+<body><header><a class="brand" href="./"><span class="emblem">ML</span><span><strong>TRƯỜNG PTDTBT TH&THCS MẬU LONG</strong><small>Cập nhật danh mục văn bản</small></span></a><nav><a href="./">Về trang tra cứu ↗</a></nav></header>
+<main class="editor"><span class="eyebrow">DÀNH CHO VĂN THƯ</span><h1>Thêm văn bản vào danh mục</h1>
+<p>Đưa tệp lên Drive → điền tên và liên kết → tải danh mục mới → thay tệp trên GitHub.</p>
+<div class="notice">Công cụ này chỉ soạn danh mục trên thiết bị đang dùng. Chỉ người có quyền sửa kho GitHub mới đăng được thay đổi lên website. Không nhập nội dung mật hoặc thông tin cá nhân; tên, số văn bản và liên kết trong danh mục sẽ hiển thị công khai.</div>
+<div class="editor-toolbar"><button class="primary" id="new">+ Thêm văn bản</button><label class="detail file-label">Mở danh mục từ máy<input id="import" type="file" accept=".json,application/json"></label><button class="detail" id="export">Tải data.json để đăng ↑</button><a class="detail" id="github" hidden target="_blank" rel="noopener noreferrer">Mở GitHub ↗</a></div>
+<p id="status" role="status" aria-live="polite">Đang tải danh mục…</p>
+<section class="editor-layout"><div class="editor-list"><label>Tìm trong danh mục<input id="editor-search" type="search" placeholder="Tên hoặc số văn bản…"></label><div id="editor-records"></div></div>
+<form id="record-form"><h2 id="form-heading">Thêm văn bản</h2><input type="hidden" name="id">
+<label class="wide">Tên văn bản / trích yếu *<input name="title" required maxlength="600" placeholder="Ví dụ: Hướng dẫn thực hiện nhiệm vụ năm học 2026–2027"></label>
+<div class="form-grid"><label>Số / ký hiệu<input name="number" placeholder="Ví dụ: 3600/SGDĐT-GDPT"></label><label>Ngày ban hành<input name="date" type="date"></label>
+<label>Nhóm văn bản *<select name="category" required></select></label><label>Loại văn bản *<select name="form" required></select></label>
+<label>Năm học<input name="year" value="2026–2027" placeholder="2026–2027"></label><label>Cơ quan ban hành<input name="issuer"></label>
+<label>Bộ phận thực hiện<input name="department"></label><label>Hạn thực hiện<input name="deadline" type="date"></label></div>
+<label>Liên kết văn bản trên Drive *<input name="url" type="url" required placeholder="https://drive.google.com/file/d/…/view"></label>
+<label>Nội dung triển khai<textarea name="note" rows="3" placeholder="Công việc cần thực hiện, người phụ trách…"></textarea></label>
+<fieldset><legend>Tài liệu kèm theo (nếu có)</legend><p>Mỗi dòng: tên tài liệu | liên kết HTTPS</p><textarea name="attachments" rows="3" placeholder="Phụ lục 1 | https://drive.google.com/file/d/…/view"></textarea></fieldset>
+<div class="editor-toolbar"><button class="primary" type="submit">Lưu vào bản soạn</button><button class="detail" id="cancel" type="button">Bỏ thay đổi trên biểu mẫu</button><button class="danger" id="delete" type="button" hidden>Xóa khỏi bản soạn</button></div>
+</form></section>
+<section class="publish-guide"><h2>Đăng thay đổi lên website</h2><ol><li>Chọn <strong>“Lưu vào bản soạn”</strong> sau khi thêm hoặc sửa từng văn bản.</li><li>Chọn <strong>“Tải data.json để đăng”</strong>. Giữ nguyên tên tệp <strong>data.json</strong>.</li><li>Mở kho GitHub của trường, chọn <strong>Add file → Upload files</strong>, tải tệp data.json vừa xuất lên thư mục gốc, sau đó chọn <strong>Commit changes</strong>.</li><li>Chờ GitHub Pages cập nhật, mở trang tra cứu và kiểm tra văn bản mới.</li></ol><p>Tệp trên Drive phải nằm trong thư mục được chia sẻ cho nhân viên. Đưa tệp lên Drive không tự thêm tên vào danh mục website.</p></section>
+</main><footer><strong>Trường PTDTBT TH&THCS Mậu Long</strong><a href="./">Về trang tra cứu</a></footer><script src="common.js"></script><script src="editor.js"></script></body></html>
